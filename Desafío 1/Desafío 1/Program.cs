@@ -35,7 +35,7 @@ namespace Desafío_1
                 {
                     case 1:
                         Console.Clear();
-                        persona = IngresoDatos();
+                        IngresoDatos(ref persona);
                         cargaAdicional(ref persona);
                         Console.ReadKey();
                         Console.Clear();
@@ -68,11 +68,9 @@ namespace Desafío_1
                 }
             }
         }
-        static referencia IngresoDatos()
+        static referencia IngresoDatos(ref referencia p )
         {
             Console.Clear();
-            referencia p;
-            p = new referencia();
             string m;
             int n = -5;
             Console.WriteLine("ingrese el modelo : ");
