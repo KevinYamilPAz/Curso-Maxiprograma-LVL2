@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticaPokedex", "PracticaPokedex\PracticaPokedex.csproj", "{A0FDA90D-A86C-4FBA-89E8-7C5B05D0DB17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{955B3FEF-293B-4D18-95DD-9373697AA814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{DF27D9D3-FDEC-4ACB-89D6-B9D2636A18A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A0FDA90D-A86C-4FBA-89E8-7C5B05D0DB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0FDA90D-A86C-4FBA-89E8-7C5B05D0DB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0FDA90D-A86C-4FBA-89E8-7C5B05D0DB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955B3FEF-293B-4D18-95DD-9373697AA814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955B3FEF-293B-4D18-95DD-9373697AA814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955B3FEF-293B-4D18-95DD-9373697AA814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955B3FEF-293B-4D18-95DD-9373697AA814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF27D9D3-FDEC-4ACB-89D6-B9D2636A18A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF27D9D3-FDEC-4ACB-89D6-B9D2636A18A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF27D9D3-FDEC-4ACB-89D6-B9D2636A18A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF27D9D3-FDEC-4ACB-89D6-B9D2636A18A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

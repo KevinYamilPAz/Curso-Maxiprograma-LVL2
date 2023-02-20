@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dominio;
 
 namespace PracticaPokedex
 {
@@ -24,6 +25,7 @@ namespace PracticaPokedex
             pokemonList = negocio.ListarPokemons();
             DGVpokemons.DataSource = pokemonList;
             PBpokemon.Load(pokemonList[0].URLimagen);
+            DGVpokemons.Columns["UrlImagen"].Visible = false;
         }
 
         private void DGVpokemons_SelectionChanged(object sender, EventArgs e)
